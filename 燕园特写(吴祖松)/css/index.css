@@ -1,0 +1,179 @@
+body {
+	color: #565656;
+}
+.topLine{
+	height: 32px;
+	background: #600000;
+	display: flex;
+	justify-content: space-around;
+
+}
+.header .topLine a {
+	font-size: 14px;
+}
+.lineLeft {
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.lineRight {
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+.topWrap {
+	height: 100px;
+	background: #8f000b url(../img/pkucloud1h100.png) no-repeat top right;
+	display: flex;
+	
+
+}
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 180px;
+}
+.menu {
+    height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.menu ul {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu ul li {
+	width: 136px;
+	height: 42.4px;
+	
+}
+.menu ul li a {
+	color: black;
+	font-size: 16px;
+}
+.bouti-link {
+	width: 1380px;
+	height: 380px;
+	margin: 0 auto;
+}
+.boutiCon {
+	position: absolute;
+	width: 170px;
+	height: 80px;
+	z-index: 1;
+	text-align: right;
+	margin-top: 120px;
+	margin-left: 0px;
+}
+.boutiCon h3 {
+	font-size: 30px;
+	color: #fff;
+	line-height: 80px;
+}
+.boutiConBg {
+	margin-top: 150px;
+	margin-left: 0px;
+	position: absolute;
+	background: #9b0000;
+	width: 200px;
+	height: 80px;
+	opacity: 0.7;
+}
+.mainWrap {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.mainWrap header {
+	margin-left: -150px;
+}
+.mainWrap ul{
+	height: 40px;
+ 	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;  
+	margin-left: 160px; 
+}
+.mainWrap ul li a {
+	color: black;
+	font-family: "Microsoft Yahei";
+}
+.check {
+    
+	border-top: 3px solid #8c0000;
+	padding-top: 9px;
+	margin-top: -11px;
+}
+.detailContent {
+	width: 1380px;
+}
+.introTit {
+	margin-bottom: 30px;
+	margin-left: 10px;
+
+}
+.introTitImg {
+	float: left;
+	width: 120px;
+	height: 64px;
+	background-color: #9b0000;
+}
+.introTit h2 {
+	float: left;
+	padding:0 27px;
+	margin-top: 0px;
+	border-bottom: 3px solid #9b0000;
+	font-size: 24px;
+	line-height: 61px;
+	opacity: 0.7;
+}
+.features {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.featureslist {
+	margin-left: 10px;
+}
+.featureslist li {
+	float: left;
+	width: 270px;
+}
+.featureslist li a {
+	display: block;
+	position: relative;
+}
+.featureslist li a * {
+	transition: all 0.3s ease 0s, 
+	-moz-transform 0.3 ease 0s;
+}
+img {
+	border:0px;
+	vertical-align: bottom;
+}
+.featureslist span {
+	display: block;
+	width: 250px;
+	/*60px*/
+	height: 0px;
+	text-align: left;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.6;
+	font-family: "Microsoft Yahei";
+	font-size: 14px;
+	padding:0px 10px 0px 10px;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	overflow: hidden;
+}
