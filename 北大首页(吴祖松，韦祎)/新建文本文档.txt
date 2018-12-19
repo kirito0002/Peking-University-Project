@@ -1,0 +1,5 @@
+轮播图向左移动了1380px
+
+小标题 left:10%;opcacity:1;
+
+背景:left:10%;width:812px;opacity:0.4;
