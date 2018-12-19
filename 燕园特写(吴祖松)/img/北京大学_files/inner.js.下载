@@ -1,0 +1,43 @@
+// JavaScript Document
+$(function(){
+	
+	$(".mobSecNav").toggle(function(){
+			$(this).next(".secNav").show();
+		},function(){
+			$(this).next(".secNav").hide();
+		})
+		
+	$(".mobSecNav2").toggle(function(){
+			$(".leftNav").show();
+		},function(){
+			$(".leftNav").hide();
+		})			
+		
+    /* 滑动菜单 */
+	$("#example-one").append("<li id='magic-line'></li>");
+    var $magicLine = $("#magic-line");
+    
+    $magicLine
+        .width($(".secNav .cur").width())
+        .css("left", $(".secNav .cur a").position().left)
+        .data("origLeft", $magicLine.position().left)
+        .data("origWidth", $magicLine.width());
+    if($('.mainWrap .mobSecNav').css('display')=='none'){  
+    	//显示链接字样时，取消hover事件   
+		    $("#example-one li").find("a").hover(function() {
+		        $el = $(this);
+		        leftPos = $el.position().left;
+		        newWidth = $el.parent().width();
+		        
+		        $magicLine.stop().animate({
+		            left: leftPos,
+		            width: newWidth
+		        });
+		    }, function() {
+		        $magicLine.stop().animate({
+		            left: $magicLine.data("origLeft"),
+		            width: $magicLine.data("origWidth")
+		        });    
+		    });
+		}
+	})
