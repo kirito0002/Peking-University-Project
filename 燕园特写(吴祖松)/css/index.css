@@ -3,7 +3,7 @@ body {
 }
 .topLine {
     height: 32px;
-    background: #600000;
+    background: #700005;
     display: flex;
     justify-content: space-around;
 }
@@ -32,6 +32,9 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-left: 180px;
+}
+.searchicon {
+    margin-top: 5px;
 }
 .menu {
     height: 60px;
