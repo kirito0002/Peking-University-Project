@@ -2,6 +2,7 @@
 	margin:0;
 	padding: 0;
 	text-decoration:none;
+	list-style-type:none;
 }
 #top{
 	height: 175px;
@@ -127,6 +128,9 @@
 .navtop{
    width: 1200px;
    height: 40px;
+   position: relative;
+   list-style: none;
+
 
 }
 .navtop li{
@@ -136,6 +140,8 @@
 	float: left;
 	font-size: 15px;
 	margin-top:10px;
+	z-index: 4;
+    position: relative;
 
 }
 
@@ -288,16 +294,108 @@
 .fot2 a{
 	margin:0 auto;
 	color: white;
-	 font-size:15px;
+	 font-size:10px;
 
 }
 
-#top4{
-	    border-bottom: 3px solid #9b0000;
+.top4{
+	    border-bottom: 2px solid #9b0000;
 }
 
 #yd{
-	width: 76px;
+	width: 65px;
 	height: 3px;
 	background: #9b0000;
+	position: absolute;
+	z-index: 15;
+}
+
+
+.wap{
+	width: 1380px;
+	height: 200px;
+	margin:0 auto;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+
+}
+
+.wap1{
+	background: #fff;
+	width: 1380px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+
+
+}
+.fl{
+	height: 130px;
+	width: 370px;
+	padding-left: 50px;
+}
+.fl03{
+	float: left;
+	padding-left: 50px;
+}
+.ml{
+	
+	float: left;
+	padding-left: 100px;
+}
+.vl{
+	
+	float: left;
+	padding-left: 100px;
+}
+.bl{
+	
+	float: left;
+	padding-left: 100px;
+}
+
+#top3 ul li:hover{
+	background:#8f000b;
+	transition: background 1s;
+}
+
+
+
+
+.wap1{
+	 display: none;
+    position: absolute;
+    position: relative;
+    display: inline-block;
+    display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+
+.top4:hover .wap1{
+      display: block;
+}
+.top5:hover .wap1{
+      display: block;
+}
+.top6:hover .wap1{
+      display: block;
+}
+.top7:hover .wap1{
+      display: block;
+}
+.top8:hover .wap1{
+      display: block;
+}
+.top9:hover .wap1{
+      display: block;
+}
+.top0:hover .wap1{
+      display: block;
 }
