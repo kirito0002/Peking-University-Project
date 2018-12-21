@@ -5,11 +5,6 @@ html,body,div,li,ul,a,img{
 li{
 	list-style: none;
 }
-a{text-decoration: none}
-a:link{color: #e5e3e3}
-a:hover{color:white}
-a:active{text-decoration:none}
-a:visited{color: #e5e3e3}
 h1,h2,h3,h4 {
 	font-family: "Microsoft Yahei",Arial
 }

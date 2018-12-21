@@ -19,8 +19,9 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.header .topLine a {
+header ul li a {
     font-size: 14px;
+    color: #e5e3e3;
 }
 .lineLeft {
     width: 300px;
@@ -314,7 +315,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	z-index: 5;
+	z-index: 99;
 }
 .fl{
 	height: 130px;
@@ -324,6 +325,9 @@ body {
 .fl03{
 	float: left;
 	padding-left: 50px;
+	color: #8c0000;
+	font-size: 1.25em;
+	text-align: center;
 }
 .ml{
 	
@@ -359,7 +363,9 @@ body {
 	justify-content: flex-start;
 	
 }
-
+.top4 {
+	border-bottom: 2px solid #8c0000;
+}
 .top4:hover .wap1{
       display: block;
 }
