@@ -817,34 +817,6 @@ ul, li {
 }
 /*Ĭ����ʽ����Ҫ��position:fixedʵ����Ļ���Զ�λ*/
 
-#gotoTop {
-    display: none;
-    position: fixed;
-    top: 75%;
-    right: 10px;
-    cursor: pointer;
-    margin-top: -50px;
-    margin-left: 520px;
-    padding: 2px 5px 3px 5px;
-    width: 20px;
-    text-align: center;
-    border: 1px solid #e0e0e0;
-    background: #fff;
-    z-index: 99;
-}
-/*��CSS���ʽ(expression)��ʵ��ie6��position:fixedЧ��*/
-
-#gotoTop {
-    _position: absolute;
-    _top: expression(documentElement.scrollTop + documentElement.clientHeight * 3/4 + "px")
-}
-/*������ķ���Ч��*/
-
-#gotoTop.hover {
-    background: #8C0000;
-    color: #fff;
-    text-decoration: none;
-}
 @media screen and (min-width:1000px) {
     .bq1 {
         display: block;

@@ -468,3 +468,32 @@ header ul li a {
 	line-height: 25px;
 	font-family: "微软雅黑";
 }
+#gotoTop {
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	top: 75%;
+	right: 10px;
+	bottom: 0px;
+	cursor: pointer;
+	border-radius: 3px 3px 3px 3px;
+    background-color: skyblue;
+    border: 1px solid #e0e0e0;
+}
+#gotoTop:hover{
+	background:#8C0000;
+	color:#fff;
+	text-decoration:none;
+}
+
+.gotoTop-icon {
+	display: block;
+	background-position: -50px -250px;
+	width: 34px;
+    height: 35px;
+    margin-left: 1px;
+    position: relative;
+    z-index: 2;
+    background-image: url(../img/toolbars.png);
+    background-repeat: no-repeat;
+}
